@@ -6,7 +6,7 @@ Welcome to **MobApps** – your one-stop solution for turning ideas into reality
 MobApps is a modern, responsive landing page and service portal for a one-man software powerhouse. It showcases the services offered, technologies used, and provides a direct way for clients to submit their ideas and get in touch.
 
 ## 🌐 Live Demo
-[View Demo](https://issamsensi.github.io/mobapps/)
+[View Demo](https://issamsensi.github.io/MOBAPPS/)
 
 ## 🌟 Features
 - **Modern, Responsive Design**: Looks great on all devices.
