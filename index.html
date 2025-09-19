@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MobApps</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+          integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header id="header">
+      <img id="header-img" src="https://i.postimg.cc/N09tHdZf/logo-removebg-preview.png" alt="MobApps Logo">
+      <nav id="nav-bar">
+        <a class="nav-link" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#services">Services</a>
+        <a class="nav-link" href="#getservice">Demande</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <h2 id="home">Welcome to <span class="span-title">MOBAPPS</span></h2>
+      <p class="description"><span class="span-title">MOBAPPS</span> isn’t just a normal website or an ordinary service—<span class="span-title">MOBAPPS</span> is your gateway to turning ideas into reality.</p>
+      <p class="description">All you need to do is fill out the form, share your idea with us, and leave the rest to our team. We can transform your idea into a powerful website, a mobile application, a desktop app, or even a game.</p>
+
+      <h2 id="about">About <span class="span-title">MOBAPPS</span></h2>
+      <p class="description"><span class="span-title">MOBAPPS</span> is a company created by <strong>ISSAM SENSI</strong> to help people turn their ideas into reality.</p>
+      <p class="description">We have a whole team that consists of one person: ISSAM SENSI. But he is like a complete team. He can create a website like this for you, develop an Android or iOS application, work with Flutter, try to build a desktop app for your company, or even create a game for your brand. In short, you can have fun while sharing your brand at the same time.</p>
+      <p class="description">We offer a wide range of services, which you can explore in the next section.</p>
+
+      <iframe id="video" width="560" height="315" 
+              src="https://www.youtube.com/embed/fKr8saekm_o?si=qxqkAqa6sz5Cd3jI" 
+              title="YouTube video player" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              referrerpolicy="strict-origin-when-cross-origin" 
+              allowfullscreen>
+      </iframe>
+
+      <h2 id="services">Our Services</h2>
+
+      <div class="service">
+        <i class="fa-solid fa-mobile"></i>
+        <div class="service-description">
+          <h3 class="service-title">Mobile Apps</h3>
+          <p class="description">We can develop any mobile app. If we don't know how, we can just ask AI.</p>
+          <div class="technologies">
+            <p class="techno">Java</p>
+            <p class="techno">Flutter</p>
+            <p class="techno">Swift</p>
+            <p class="techno">Android Studio</p>
+            <p class="techno">XML</p>
+            <p class="techno">Java</p> <!-- duplicate kept as you wrote -->
+          </div>
+        </div>
+      </div>
+
+      <div class="service">
+        <i class="fa-solid fa-globe"></i>
+        <div class="service-description">
+          <h3 class="service-title">Web Sites</h3>
+          <p class="description">We can develop whatever website you thought about. Our team is crazy and can do it.</p>
+          <div class="technologies">
+            <p class="techno">HTML</p>
+            <p class="techno">CSS</p>
+            <p class="techno">JavaScript</p>
+            <p class="techno">Python: Flask | Django</p>
+            <p class="techno">PHP</p>
+            <p class="techno">SQL: MySQL | SQL Server | SQLite</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="service">
+        <i class="fa-solid fa-gamepad"></i>
+        <div class="service-description">
+          <h3 class="service-title">Games</h3>
+          <p class="description">We can bring your game idea to life with our genius team.</p>
+          <div class="technologies">
+            <p class="techno">Java</p>
+            <p class="techno">JavaScript</p>
+            <p class="techno">Unity</p>
+            <p class="techno">Godot</p>
+            <p class="techno">Unreal Engine</p>
+            <p class="techno">Pygame</p>
+          </div>
+        </div>
+      </div>
+
+      <h2 id="getservice">Get a Service</h2>
+      <form id="form" method="post" action="https://github.com/issamsensi">
+        <select id="select-service" name="service" required>
+          <option value="" selected disabled>Select a Service</option>
+          <option value="mobile">Mobile App</option>
+          <option value="web">Web Site</option>
+          <option value="game">Game</option>
+        </select>
+        <textarea id="description-submit" name="idea" placeholder="Your idea here" cols="50" rows="6" required></textarea>
+        <input type="email" placeholder="Email" id="email" autocomplete="off" name="email" required>
+        <input type="submit" id="submit" value="GET NOW">
+      </form>
+
+      <h2 id="contact">Contact Us</h2>
+      <p class="description">Feel free to contact us on these platforms:</p>
+      <div class="social-links">
+        <a href="https://facebook.com/issamsensi"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://instagram.com/issamsensi"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.tiktok.com/@issamsensi"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="https://www.linkedin.com/in/issam-amghar-406b3a228"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/issamsensi"><i class="fa-brands fa-github"></i></a>
+        <a href="https://wa.me/+212658987985"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://youtube.com/@issamsensi?si=4ZpR37-s4ifInfwj"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://x.com/issamsensi"><i class="fa-brands fa-twitter"></i></a>
+      </div>
+    </main>
+
+    <footer id="footer">
+      <h3>Quick Links</h3>
+      <a class="link" href="#home">Home</a>
+      <a class="link" href="#about">About</a>
+      <a class="link" href="#services">Services</a>
+      <a class="link" href="#getservice">Demande</a>
+      <a class="link" href="#contact">Contact</a>
+      <hr>
+      <p>© 2025 <a href="https://github.com/issamsensi" class="link">issamsensi</a></p>
+    </footer>
+  </body>
+</html>
