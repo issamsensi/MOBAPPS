@@ -37,8 +37,8 @@ styles.css      # Custom styles for the site
 ## ✨ How to Use
 1. **Clone the repository**
    ```zsh
-   git clone https://github.com/issamsensi/mobapps.git
-   cd mobapps
+   git clone https://github.com/issamsensi/MOBAPPS.git
+   cd MOBAPPS
    ```
 2. **Open `index.html` in your browser**
 3. **Explore the services and submit your idea using the form!**
